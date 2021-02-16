@@ -133,6 +133,7 @@ int main(){
         b1.DisplayBoard();
         int choice = b1.GetPlayerChoice();
         b1.PlaceMarker(choice);
+        num_turns ++;
     }
 
 }
